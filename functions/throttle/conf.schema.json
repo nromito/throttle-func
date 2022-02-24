@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["eps"],
+  "properties": {
+    "eps": {
+      "type": "number",
+      "title": "Events Per Second",
+      "minimum": 1
+    }
+  }
+}
